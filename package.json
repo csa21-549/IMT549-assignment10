@@ -1,0 +1,23 @@
+{
+  "name": "IMT549-assignment10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csa21-549/IMT549-assignment10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csa21-549/IMT549-assignment10/issues"
+  },
+  "homepage": "https://github.com/csa21-549/IMT549-assignment10#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
