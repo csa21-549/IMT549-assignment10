@@ -1,0 +1,142 @@
+html {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+/* header */
+@media (min-width: 768px) {
+  header {
+    background-image: url(../images/race.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+header {
+  color:teal;
+  font-size: 500%;
+  text-align: center;
+}
+
+header .container {
+  background-color: aliceblue;
+}
+
+p img {
+  width: 100%;
+}
+
+}
+h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+p {
+  font-weight: 300;
+}
+
+h5 {
+  color: teal;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+/* @media (min-width: 768px) {
+  body header .container h1 {
+    font-size: 5rem;
+  }
+  body header .container p {
+    font-size: 1.5rem;
+    max-width: 50%;
+  }
+} */
+h2 {
+  margin-top: 0;
+}
+
+
+/* @media (min-width: 768px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    flex-basis: 50%;
+  }
+}
+@media (min-width: 992px) {
+  li {
+    flex-basis: 33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  li {
+    flex-basis: 33%;
+  }
+} */
+footer {
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  font-variant: small-caps;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  footer {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  footer {
+    margin-bottom: 50px;
+  }
+}
+a {
+  color: white;
+}
